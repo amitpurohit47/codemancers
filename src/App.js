@@ -35,7 +35,7 @@ function App() {
           <div className="input-prompt">What's on your mind, {name}?</div>
         </div>
         <div className="posts">
-          {posts.map(post => <Post textData={post.textData} name={name} gifs={post.allgifs} key={post.textData} />)}
+          {posts.length === 0 ? <h1>No posts yet. Click on above box to create post.</h1> : posts.map(post => <Post textData={post.textData} name={name} gifs={post.allgifs} key={post.textData} />)}
         </div>
       </div>
     </div>
