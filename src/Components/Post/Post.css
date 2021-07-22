@@ -1,6 +1,9 @@
 .post {
   width: 100%;
   margin-top: 20px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .post-top {
@@ -13,7 +16,7 @@
 }
 
 .post-top i {
-  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/6QehXQXjNeI.png);
+  background-image: url('https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/6QehXQXjNeI.png');
   background-position: 0px -516px;
   background-size: 34px 956px;
   width: 20px;
